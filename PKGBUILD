@@ -9,8 +9,7 @@ arch=('x86_64')
 url="www.polymake.org"
 license=('GPL')
 groups=()
-depends=('ant' 
-         'ant-optional'
+depends=('apache-ant'
          'default-jdk'
          'gcc'
          'boost'

@@ -37,12 +37,12 @@ md5sums=( '08584547589f052ea50e2148109202ab' )
 validpgpkeys=()
 
 build() {
-	cd "$pkgname-$pkgver"
+	cd polymake-3.0
 	./configure --prefix=/usr
 	make
 }
 
 package() {
-	cd "$pkgname-$pkgver"
+	cd polymake-3.0
 	make DESTDIR="$pkgdir/" install
 }

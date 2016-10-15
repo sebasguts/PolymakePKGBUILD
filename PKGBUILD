@@ -10,7 +10,7 @@ url="www.polymake.org"
 license=('GPL')
 groups=()
 depends=('apache-ant'
-         'default-jdk'
+         'jdk7-openjdk'
          'gcc'
          'boost'
          'gmp'
@@ -18,9 +18,8 @@ depends=('apache-ant'
          'perl'
          'perl-term-readline-gnu'
          'perl-xml-libxml'
-         'perl-xml-xslt'
+         'perl-xml-libxslt'
          'perl-xml-writer'
-         'w3c-dtd-xhtml'
          'libxslt' )
 makedepends=()
 checkdepends=()

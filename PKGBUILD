@@ -33,7 +33,7 @@ install=
 changelog=
 source=("https://polymake.org/lib/exe/fetch.php/download/$pkgname-$pkgver.tar.bz2")
 noextract=()
-md5sums=()
+md5sums=( '08584547589f052ea50e2148109202ab' )
 validpgpkeys=()
 
 build() {

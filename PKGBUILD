@@ -21,7 +21,8 @@ depends=('apache-ant'
          'perl-xml-libxslt'
          'perl-xml-writer'
          'libxslt' )
-makedepends=()
+makedepends=( 'binutils'
+              'make')
 checkdepends=()
 optdepends=()
 provides=()

@@ -1,0 +1,26 @@
+pkgbase = polymake
+	pkgdesc = A tool for convex geometry
+	pkgver = 3.0r2
+	pkgrel = 1
+	url = www.polymake.org
+	arch = x86_64
+	license = GPL
+	makedepends = binutils
+	makedepends = make
+	depends = apache-ant
+	depends = jdk7-openjdk
+	depends = gcc
+	depends = boost
+	depends = gmp
+	depends = mpfr
+	depends = perl
+	depends = perl-term-readline-gnu
+	depends = perl-xml-libxml
+	depends = perl-xml-libxslt
+	depends = perl-xml-writer
+	depends = libxslt
+	source = https://polymake.org/lib/exe/fetch.php/download/polymake-3.0r2.tar.bz2
+	md5sums = 08584547589f052ea50e2148109202ab
+
+pkgname = polymake
+
